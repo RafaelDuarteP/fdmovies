@@ -17,7 +17,7 @@ function montaResultado() {
         <div class="row busca">
             <div class="col-12">
                 <div class="row">
-                    <img class="col-12 col-lg-2" src="https://image.tmdb.org/t/p/original${filme.poster_path}" alt="">
+                    <img class="col-12 col-lg-2" src="https://image.tmdb.org/t/p/original${filme.poster_path || filme.profile_path}" alt="">
                     <div class="col-12 col-lg-10">
                         <div class="titleBusca">
                             ${filme.title || filme.name}
