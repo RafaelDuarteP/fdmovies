@@ -1,0 +1,51 @@
+.title{
+    margin-bottom: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.479);
+}
+
+.imagemfundo{
+    max-width: 90%; 
+    position: fixed;
+    top: 0;
+    z-index: -100;
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.capa{
+    padding: 0;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.918);
+}
+
+.info{
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: rgba(255, 255, 255, 0.856);
+}
+
+.sinopse{
+    padding: 5px;
+    font-size: large;
+    text-align: justify;
+}
+
+.nota{
+    color: rgb(179, 152, 0);
+    font-size: x-large;
+    font-style: italic;
+}
+
+.gen{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.data{
+    font-size: large;
+}
