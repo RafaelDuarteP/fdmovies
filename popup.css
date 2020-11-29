@@ -1,4 +1,5 @@
 .title{
+    font-size: 650%;
     margin-bottom: 10px;
     color: white;
     background: rgba(0, 0, 0, 0.479);
@@ -48,4 +49,11 @@
 
 .data{
     font-size: large;
+}
+
+
+@media screen and (max-width: 991px)
+{
+    .imagemfundo{display: none;}
+    .title{font-size: 350%;}
 }
