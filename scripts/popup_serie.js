@@ -18,7 +18,7 @@ function carregaConteudo() {
 
     pagina.innerHTML = `${dados.name} -  FD Movie`
 
-    titulo.innerHTML = `<h1 class="title" style="font-size: 650%; text-align: center;">${dados.name}</h1>`
+    titulo.innerHTML = `<h1 class="title" style="text-align: center;">${dados.name}</h1>`
 
     fundo.innerHTML =`<img src="https://image.tmdb.org/t/p/original${dados.backdrop_path}" alt="" class="imagemfundo">`
 
